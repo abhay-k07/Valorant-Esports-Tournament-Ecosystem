@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Calendar, Globe } from 'lucide-react';
 
-const API_URL = 'http://localhost:8000/api';
+const API_URL = '/api';
 
 const TournamentData = () => {
   const [tournaments, setTournaments] = useState([]);

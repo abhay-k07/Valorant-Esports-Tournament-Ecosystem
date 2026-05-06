@@ -10,7 +10,7 @@ import SqlRunner from './components/SqlRunner'
 import About from './components/About'
 import Contact from './components/Contact'
 
-const API_URL = 'http://localhost:8000/api'
+const API_URL = '/api'
 
 function App() {
   // "activeTab" is the only routing mechanism — no React Router needed for this scale.

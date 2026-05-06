@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Play, Database, AlertCircle } from 'lucide-react';
 
-const API_URL = 'http://localhost:8000/api';
+const API_URL = '/api';
 
 const SAMPLE_QUERIES = [
   {
